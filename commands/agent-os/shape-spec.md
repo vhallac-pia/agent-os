@@ -4,7 +4,7 @@ Gather context and structure planning for significant work. **Run this command w
 
 ## Important Guidelines
 
-- **Always use AskUserQuestion tool** when asking the user anything
+- **Always use question tool** when asking the user anything
 - **Offer suggestions** — Present options the user can confirm, adjust, or correct
 - **Keep it lightweight** — This is shaping, not exhaustive documentation
 
@@ -26,7 +26,7 @@ Do not proceed with any steps below until confirmed to be in plan mode.
 
 ### Step 1: Clarify What We're Building
 
-Use AskUserQuestion to understand the scope:
+Use question tool to understand the scope:
 
 ```
 What are we building? Please describe the feature or change.
@@ -41,7 +41,7 @@ Based on their response, ask 1-2 clarifying questions if the scope is unclear. E
 
 ### Step 2: Gather Visuals
 
-Use AskUserQuestion:
+Use question tool:
 
 ```
 Do you have any visuals to reference?
@@ -57,7 +57,7 @@ If visuals are provided, note them for inclusion in the spec folder.
 
 ### Step 3: Identify Reference Implementations
 
-Use AskUserQuestion:
+Use question tool:
 
 ```
 Is there similar code in this codebase I should reference?
@@ -76,7 +76,7 @@ If references are provided, read and analyze them to inform the plan.
 
 Check if `agent-os/product/` exists and contains files.
 
-If it exists, read key files (like `mission.md`, `roadmap.md`, `tech-stack.md`) and use AskUserQuestion:
+If it exists, read key files (like `mission.md`, `roadmap.md`, `tech-stack.md`) and use question tool:
 
 ```
 I found product context in agent-os/product/. Should this feature align with any specific product goals or constraints?
@@ -93,7 +93,7 @@ If no product folder exists, skip this step.
 
 Read `agent-os/standards/index.yml` to identify relevant standards based on the feature being built.
 
-Use AskUserQuestion to confirm:
+Use question tool to confirm:
 
 ```
 Based on what we're building, these standards may apply:

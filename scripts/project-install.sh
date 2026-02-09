@@ -386,7 +386,7 @@ install_commands() {
     print_status "Installing commands..."
 
     local commands_source="$BASE_DIR/commands/agent-os"
-    local commands_dest="$PROJECT_DIR/.claude/commands/agent-os"
+    local commands_dest="$PROJECT_DIR/.opencode/command/agent-os"
 
     if [[ ! -d "$commands_source" ]]; then
         print_warning "No commands found in base installation"
@@ -404,7 +404,7 @@ install_commands() {
     done
 
     if [[ "$count" -gt 0 ]]; then
-        print_success "Installed $count commands to .claude/commands/agent-os/"
+        print_success "Installed $count commands to .opencode/command/agent-os/"
     else
         print_warning "No command files found"
     fi

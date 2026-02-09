@@ -4,7 +4,7 @@
 
 [Agent OS](https://buildermethods.com/agent-os) helps you shape better specs, keeps agents aligned in a lightweight system that fits how you already build.
 
-Works alongside Claude Code, Cursor, Antigravity, and other AI tools. Any language, any framework.
+Works alongside OpenCode, Claude Code, Cursor, Antigravity, and other AI tools. Any language, any framework.
 
 **Core capabilities:**
 
