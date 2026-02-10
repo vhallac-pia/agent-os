@@ -5,8 +5,6 @@
 # Installs Agent OS into a project's codebase
 # =============================================================================
 
-set -e
-
 # Get the directory where this script is located
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 BASE_DIR="$(dirname "$SCRIPT_DIR")"
